@@ -1,0 +1,41 @@
+# Xcode
+.DS_Store
+xcuserdata/
+*.xcuserstate
+project.xcworkspace/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+
+# CocoaPods (if you're using it)
+Pods/
+*.xcworkspace
+
+# Carthage (if you're using it)
+Carthage/Build/
+
+# fastlane (if you're using it)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code coverage
+*.gcda
+*.gcno
+*.gcov
+
+# Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+timeline.xctimeline
+.env 
