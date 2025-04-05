@@ -29,17 +29,49 @@ class Model: ObservableObject {
 }
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            // Seconds should count down from 60 to 0
-            Text("You have only 60 seconds left to get the discount")
-
-            Button("Open payment", action: {})
-
-            // Visible only if payment type is selected
-            Button("Finish", action: {})
-        }
-    }
+	var body: some View {
+		ZStack {
+			Color(.blue)
+				.ignoresSafeArea()
+			VStack {
+				Spacer()
+				// Seconds should count down from 60 to 0
+				Text("You have only 60 seconds left to get the discount")
+					.font(.system(size: 25, weight: .heavy, design: .rounded))
+					.foregroundStyle(.white)
+					.multilineTextAlignment(.center)
+				
+				Spacer()
+				
+				Button(action: {
+					// Action here
+				}) {
+					Text("Open payment")
+						.foregroundColor(.blue)
+						.frame(maxWidth: .infinity)
+						.padding()
+						.background(Color.white)
+						.cornerRadius(10)
+				}
+				.padding(.horizontal)
+				
+				// Visible only if payment type is selected
+				Button(action: {
+					
+				}){
+					Text("Finish")
+						.foregroundColor(.blue)
+						.frame(maxWidth: .infinity)
+						.padding()
+						.background(Color.white)
+						.cornerRadius(10)
+				}
+				.padding(.horizontal)
+				
+			}
+			.padding([.horizontal, .bottom])
+		}
+	}
 }
 
 struct FinishView: View {
