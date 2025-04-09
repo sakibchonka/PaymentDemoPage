@@ -1,15 +1,3 @@
-# Speechify SwiftUI Test
-In this test, you will be need to create a payment type selection interface using SwiftUI.
-
-## Requirements
-
-- macOS Monterey 12.0 or later
-- Xcode 13.2 or later
-- Swift 5.0 or later
-- iOS Simulator/Device 15.2 or later 
-
----
-
 ## Task Details
 
 This challenge is to create a payment type selection interface using SwiftUI.
@@ -21,8 +9,6 @@ It should:
 - ✅ Selection state management
 - 🎯 Modal presentation
 - ✨ Success view after completion
-
-> **IMPORTANT NOTE:** Please write all of your code in `Shared/ContentView.swift` file otherwise it won't be considered. Do not create or modify any file apart from `Shared/ContentView.swift` file.
 
 ---
 
@@ -55,20 +41,3 @@ Example:
 ![Example View](Screenshots/5.png)
 
 ---
-
-## Development Guidelines
-
-### Do's
-
--   Write clean, maintainable, and well-documented code and follow the best practices and coding standards.
--   You are free to use any official documentation or language references (SwiftUI, Swift, etc).
--   You can use the debugging tools and native IDE features (only standard Auto-Completion)
--   Only Write your code in `Shared/ContentView.swift` file.
-
-### Don'ts
-
--   Do NOT use any external libraries for the implementation.
--   DO NOT use any Coding Assistants like GitHub Copilot, ChatGPT, etc or any other AI based tools.
--   DO NOT visit direct blogs or articles related to implementation of the tasks.
--   DO NOT use Stackoverflow or any other forum websites.
--   DO NOT create any new files apart from `Shared/ContentView.swift` file.
