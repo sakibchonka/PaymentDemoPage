@@ -1,6 +1,3 @@
-// Your task is to finish this application to satisfy requirements below and make it look like on the attached screenshots. Try to use 80/20 principle.
-// Good luck! 🍀
-
 // 1. Setup UI of the ContentView. Try to keep it as similar as possible.
 // 2. Subscribe to the timer and count seconds down from 60 to 0 on the ContentView.
 // 3. Present PaymentModalView as a sheet after tapping on the "Open payment" button.
