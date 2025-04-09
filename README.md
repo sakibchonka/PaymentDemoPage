@@ -1,15 +1,3 @@
-# Speechify SwiftUI Test
-In this test, you will be need to create a payment type selection interface using SwiftUI.
-
-## Requirements
-
-- macOS Monterey 12.0 or later
-- Xcode 13.2 or later
-- Swift 5.0 or later
-- iOS Simulator/Device 15.2 or later 
-
----
-
 ## Task Details
 
 This challenge is to create a payment type selection interface using SwiftUI.
